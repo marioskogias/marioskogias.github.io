@@ -16,7 +16,8 @@
       <pubDate>Sun, 22 Dec 2019 11:51:46 +0100</pubDate>
       
       <guid>https://marioskogias.github.io/teaching/</guid>
-      <description></description>
+      <description>Studying in EPFL gives me several opportunities for teaching and mentoring students, which I try to take advantage as much as I can.
+TAing  Principles of Computer Systems CS-522 (Winter 2017,2018,2019) Introduction to Operating Systems CS-323 (Spring 2019) Database Systems CS-422 (Spring 2018) Mise a Niveau MAN (Spring 2017) Computer Networks COM-208 (Winter 2016)  Student Mentoring Master Thesis  Martin Weber, Measuring Network Service Latencies with a Programmable Dataplane, Thesis PDF Antoine Albertelli, R3P2: a Replicated Request-Response Pair Protocol, Thesis PDF Ogier Bouvier, A Zero Copy Key-Value Store in Rust Lisa Zhou, Storage in IX: a High Performance Storage Layer for a Dataplane Operating System, Thesis PDF  Master Projects  Mikael Morales Gonzalez, R2P2 and UDP support in Lancet, Report Martin Weber, Introducing scheduling decisions in cooperative multitasking: an automated approach, Report Konstantinos Tsitsimpikos, Tail Latency Analysis on Fanout DataCenter Systems, Report Sutandi, I Made Sanadhi, QUIC Overview, Report  Bachelor Projects  Charline Montial, Webserver benchmarking with Lancet, Report  </description>
     </item>
     
     <item>
