@@ -10,5 +10,34 @@
 	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Teaching</title>
+      <link>https://example.com/teaching/</link>
+      <pubDate>Sun, 22 Dec 2019 11:51:46 +0100</pubDate>
+      
+      <guid>https://example.com/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://example.com/pubs/</link>
+      <pubDate>Sun, 22 Dec 2019 11:51:42 +0100</pubDate>
+      
+      <guid>https://example.com/pubs/</guid>
+      <description>Conferences  R2P2: Making RPCs first-class datacenter citizens Marios Kogias, George Prekas, Adrien Ghosn, Jonas Fietz, Ed Bugnion in Usenix ATC 2019 Paper Lancet: A self-correcting Latency Measuring Tool Marios Kogias, Stephen Mallon, Ed Bugnion in Usenix ATC 2019 Paper ZygOS: Achieving Low Tail Latency for Microsecond-scale Networked Tasks George Prekas*, Marios Kogias*, Ed Bugnion (*equal co-authors) in SOSP 2017 Paper  Workshops  Flow Control for Latency-Critical RPCs Marios Kogias, Ed Bugnion in KBNets@SIGCOMM2018 Paper  Posters  Measuring Latency: Am I doing it right?</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://example.com/projects/</link>
+      <pubDate>Sun, 22 Dec 2019 11:49:22 +0100</pubDate>
+      
+      <guid>https://example.com/projects/</guid>
+      <description>R2P2 Our work on ZygOS revealed the mismatch between TCP&#39;s streaming semantics and RPCs&amp;rsquo; message-oriented semantics. R2P2 (Request Response Pair Protocol) is a transport protocol specifically designed for datacenter RPCs. It exposes a request and response abstraction, as opposed to streams or messages, and allows for in-network policy enforcement based on software and hardware middleboxes. R2P2 was presented in Usenix ATC 2019
+ Source Code
+Lancet Doing research in the μs-scale requires tools with the equivalent accuracy.</description>
+    </item>
+    
   </channel>
 </rss>
