@@ -235,13 +235,13 @@
   <main id="main">
     <h1>Projects</h1>
     <h2 id="r2p2">R2P2</h2>
-<p>Our work on ZygOS revealed the mismatch between TCP's streaming semantics and RPCs&rsquo; message-oriented semantics. R2P2 (Request Response Pair Protocol) is a transport protocol specifically designed for datacenter RPCs. It exposes a request and response abstraction, as opposed to streams or messages, and allows for in-network policy enforcement based on software and hardware middleboxes. R2P2 was presented in <a href="https://www.usenix.org/conference/atc19/presentation/kogias-r2p2">Usenix ATC 2019</a></p>
+<p>Our work on ZygOS revealed the mismatch between TCP's streaming semantics and RPCs&rsquo; message-oriented semantics. R2P2 (Request Response Pair Protocol) is a transport protocol specifically designed for datacenter RPCs. It exposes a request and response abstraction, as opposed to streams or messages, and allows for in-network policy enforcement based on software and hardware middleboxes. We explored several RPC policies on top of R2P2 such as fault-tolerance in <a href="/pubs/hovercraft.pdf">HovercRaft</a> and SLO-aware admission control in <a href="/pubs/sven.pdf">SVEN</a>.</p>
 <p><i class="fab fa-github"></i> <a href="https://github.com/epfl-dcsl/r2p2">Source Code</a></p>
 <h2 id="lancet">Lancet</h2>
-<p>Doing research in the μs-scale requires tools with the equivalent accuracy. Lancet is a self-correcting tool designed to measure the open-loop tail latency of μs-scale datacenter applications with high fan-in connection patterns. It leverages NIC-based timestamping to improve measurement accuracy and it implements a robust experiment methodology based on online statistical testing to drive the experiment. Lancet was presented in <a href="https://www.usenix.org/system/files/atc19-kogias-lancet.pdf">Usenix ATC 2019</a></p>
+<p>Doing research in the μs-scale requires tools with the equivalent accuracy. Lancet is a self-correcting tool designed to measure the open-loop tail latency of μs-scale datacenter applications with high fan-in connection patterns. It leverages NIC-based timestamping to improve measurement accuracy and it implements a robust experiment methodology based on online statistical testing to drive the experiment.</p>
 <p><i class="fab fa-github"></i> <a href="https://github.com/epfl-dcsl/lancet-tool">Source Code</a></p>
 <h2 id="zygos">ZygOS</h2>
-<p>ZygOS is a datacenter operating system that specializes in serving μs-scale RPCs with strict tail-latency SLOs on top of TCP. It implements a work-conserving scheduler that depends on work-stealing and imitates the behavior of a single queue system. ZygOS was presented in <a href="/zygos.pdf">SOSP 2017</a>.</p>
+<p>ZygOS is a datacenter operating system that specializes in serving μs-scale RPCs with strict tail-latency SLOs on top of TCP. It implements a work-conserving scheduler that depends on work-stealing and imitates the behavior of a single queue system.</p>
 <p><i class="fab fa-github"></i> <a href="https://github.com/ix-project/zygos">Source Code</a></p>
 
   </main>
