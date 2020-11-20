@@ -235,8 +235,11 @@
   <main id="main">
     <h1>Projects</h1>
     <h2 id="r2p2">R2P2</h2>
-<p>Our work on ZygOS revealed the mismatch between TCP's streaming semantics and RPCs&rsquo; message-oriented semantics. R2P2 (Request Response Pair Protocol) is a transport protocol specifically designed for datacenter RPCs. It exposes a request and response abstraction, as opposed to streams or messages, and allows for in-network policy enforcement based on software and hardware middleboxes. We explored several RPC policies on top of R2P2 such as fault-tolerance in <a href="/pubs/hovercraft.pdf">HovercRaft</a> and SLO-aware admission control in <a href="/pubs/sven.pdf">SVEN</a>.</p>
+<p>Our work on ZygOS and TCP revealed the mismatch between TCP's streaming semantics and RPCs&rsquo; message-oriented semantics. R2P2 (Request Response Pair Protocol) is a transport protocol specifically designed for datacenter RPCs. It exposes a request and response abstraction, as opposed to streams or messages, and allows for in-network policy enforcement based on software and hardware middleboxes. We explored several RPC policies on top of R2P2 such as fault-tolerance in <a href="/pubs/hovercraft.pdf">HovercRaft</a> and SLO-aware admission control in <a href="/pubs/sven.pdf">SVEN</a>.</p>
 <p><i class="fab fa-github"></i> <a href="https://github.com/epfl-dcsl/r2p2">Source Code</a></p>
+<h2 id="enhanced-tcp">Enhanced TCP</h2>
+<p>Our work enhances TCP with an <a href="/pubs/kbnets.pdf">SLO-aware flow control mechanism</a> enabling the creation of tail-tolerant applications on top of TCP's byte stream abstraction and a new <a href="/pubs/crab.pdf">L4 load balancing scheme</a> that bypasses the load balancer in the connection data path.</p>
+<p><i class="fab fa-github"></i> <a href="https://github.com/epfl-dcsl/crab">Source Code</a></p>
 <h2 id="lancet">Lancet</h2>
 <p>Doing research in the μs-scale requires tools with the equivalent accuracy. Lancet is a self-correcting tool designed to measure the open-loop tail latency of μs-scale datacenter applications with high fan-in connection patterns. It leverages NIC-based timestamping to improve measurement accuracy and it implements a robust experiment methodology based on online statistical testing to drive the experiment.</p>
 <p><i class="fab fa-github"></i> <a href="https://github.com/epfl-dcsl/lancet-tool">Source Code</a></p>
