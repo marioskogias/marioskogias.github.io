@@ -10,33 +10,5 @@
 	<atom:link href="https://marioskogias.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>Teaching</title>
-      <link>https://marioskogias.github.io/teaching/</link>
-      <pubDate>Sun, 22 Dec 2019 11:51:46 +0100</pubDate>
-      
-      <guid>https://marioskogias.github.io/teaching/</guid>
-      <description>Studying in EPFL gives me several opportunities for teaching and mentoring students.
-TAing  Principles of Computer Systems CS-522 (Winter 2017,2018,2019) Introduction to Operating Systems CS-323 (Spring 2019) Database Systems CS-422 (Spring 2018) Mise a Niveau MAN (Spring 2017) Computer Networks COM-208 (Winter 2016)  Student Mentoring Master Thesis  Konstantinos Prasopoulos, Extending R2P2 with Congestion Control and Request-Level Scheduling, Thesis PDF Martin Weber, Measuring Network Service Latencies with a Programmable Dataplane, Thesis PDF Antoine Albertelli, R3P2: a Replicated Request-Response Pair Protocol, Thesis PDF Ogier Bouvier, A Zero Copy Key-Value Store in Rust Lisa Zhou, Storage in IX: a High Performance Storage Layer for a Dataplane Operating System, Thesis PDF  Master Projects  Paul Renauld, Implementing Exactly-Once Semantic for R2P2, Report Guillaume Solignac, Encrypted R2P2, Report Mikael Morales Gonzalez, TPC-C Support in Lancet, Report Mikael Morales Gonzalez, R2P2 and UDP support in Lancet, Report Martin Weber, Introducing scheduling decisions in cooperative multitasking: an automated approach, Report Konstantinos Tsitsimpikos, Tail Latency Analysis on Fanout DataCenter Systems, Report Sutandi, I Made Sanadhi, QUIC Overview, Report  Bachelor Projects  Matthieu De Beule, eBPF for perfomance analysis and networking, Report Charline Montial, Webserver benchmarking with Lancet, Report  </description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://marioskogias.github.io/pubs/</link>
-      <pubDate>Sun, 22 Dec 2019 11:51:42 +0100</pubDate>
-      
-      <guid>https://marioskogias.github.io/pubs/</guid>
-      <description>Conferences   When Idling is Ideal: Optimizing Tail-Latency for Heavy-Tailed Datacenter Workloads with Perséphone Henri Maxime Demoulin, Joshua Fried, Isaac Pedisich, Marios Kogias, Boon Thau Loo, Linh Thi Xuan Phan, Irene Zhang in SOSP 2021 Paper  Harvesting Idle CPUs Safely and Efficiently in the Cloud Yawen Wang, Kapil Arya, Marios Kogias, Manohar Vanga, Aditya Bhandari, Neeraja J. Yadwadkar, Siddhartha Sen, Sameh Elnikety, Christos Kozyrakis, and Ricardo Bianchini in Eurosys 2021 Paper  Enclosure: language-based restriction of untrusted libraries Adrien Ghosn, Marios Kogias, James Larus, Ed Bugnion in ASPLOS 2021 Paper  REAP: Record-and-Prefetch Serverless Functions Orchestration Dmitrii Ustiugov, Plamen Petrov, Marios Kogias, Ed Bugnion, Boris Grot in ASPLOS 2021 Paper  Bypassing the Load Balancer without Regrets Marios Kogias, Rishabh Iyer, Ed Bugnion in SoCC 2020 Paper  HovercRaft: Achieving Scalability and Fault-tolerance for microsecond-scale Datacenter Services Marios Kogias, Ed Bugnion in Eurosys 2020 Best Student Paper Award!</description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://marioskogias.github.io/projects/</link>
-      <pubDate>Sun, 22 Dec 2019 11:49:22 +0100</pubDate>
-      
-      <guid>https://marioskogias.github.io/projects/</guid>
-      <description>R2P2 Our work on ZygOS and TCP revealed the mismatch between TCP&#39;s streaming semantics and RPCs&amp;rsquo; message-oriented semantics. R2P2 (Request Response Pair Protocol) is a transport protocol specifically designed for datacenter RPCs. It exposes a request and response abstraction, as opposed to streams or messages, and allows for in-network policy enforcement based on software and hardware middleboxes. We explored several RPC policies on top of R2P2 such as fault-tolerance in HovercRaft and SLO-aware admission control in SVEN.</description>
-    </item>
-    
   </channel>
 </rss>
